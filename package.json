@@ -1,0 +1,30 @@
+{
+  "name": "sails-lifted-event",
+  "version": "0.0.0",
+  "description": "A reliable \"lifted\" event handler for loading a Sails.js app via require()",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjwebb/sails-lifted-event.git"
+  },
+  "keywords": [
+    "sails.js",
+    "sails",
+    "mocha",
+    "testing",
+    "lift",
+    "lifted",
+    "event",
+    "listener",
+    "handler"
+  ],
+  "author": "Travis Webb <me@traviswebb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjwebb/sails-lifted-event/issues"
+  },
+  "homepage": "https://github.com/tjwebb/sails-lifted-event"
+}
