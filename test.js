@@ -3,9 +3,9 @@ var _ = require('lodash');
 var rigger = require('./');
 var sails = require('sails');
 
-describe('sails-lifted-event', function () {
+describe('sails-rigged', function () {
 
-  describe('#lifted', function () {
+  describe('#rigged', function () {
     this.timeout(10000);
     var apps = [ 'sails-todomvc', 'xtuple-api' ];
 

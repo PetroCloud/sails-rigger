@@ -1,7 +1,7 @@
 var path = require('path');
 var SailsApp = require('sails').Sails;
 
-exports.lift = function (app, cb) {
+exports.rigged = function (app, cb) {
   var cwd = process.cwd();
 
   process.chdir(path.dirname(require.resolve(app)));

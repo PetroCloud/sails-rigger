@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tjwebb/sails-lift.git"
+    "url": "https://github.com/tjwebb/sails-rigged.git"
   },
   "keywords": [
     "sails.js",
@@ -24,9 +24,9 @@
   "author": "Travis Webb <me@traviswebb.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tjwebb/sails-lift/issues"
+    "url": "https://github.com/tjwebb/sails-rigged/issues"
   },
-  "homepage": "https://github.com/tjwebb/sails-lift",
+  "homepage": "https://github.com/tjwebb/sails-rigged",
   "devDependencies": {
     "mocha": "^1.21.4",
     "sails-todomvc": "tjwebb/sails-todomvc",
