@@ -10,5 +10,4 @@ deploy:
   api_key:
     secure: HyV9nr8ZkdDyzaGtvRDTlejBl+mcauLw53iEw1RCrLKVafY9+2BVJbceAFp0cCAuDeHdYCvAu5pliRPuwnCqTK//wzXSR2p+nVbnyoFMS/MIzbo0BxqxMU05MJ46nF9L8gtuaNR5CRd0j8roIFu58janIDnh4xaidO5nZWHYN44=
   on:
-    tags: true
     repo: tjwebb/sails-rigged
