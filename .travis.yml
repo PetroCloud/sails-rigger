@@ -1,13 +1,14 @@
 language: node_js
 node_js:
-  - '0.10'
-  - '0.11'
-
+- '0.10'
+- '0.11'
 notifications:
   email: false
-
 deploy:
   provider: npm
   email: me@traviswebb.com
   api_key:
-    secure: ctlVXZHKgOuBxS0aBwcEh2Oqaxc7uG+cniQTyjiiafLBCLXVTlWwLl+evnRFhtiJR6UJ3LFC1Iz7Ovvc4iWVd8ynMTrKwDsAb9aklX/OwQP6aHL6slvbx8dzIeLaL+Lo2GsGQtiolnZ3SX+G5P/b9R6ttp09/4O0+4KO2TYIBWE=
+    secure: HyV9nr8ZkdDyzaGtvRDTlejBl+mcauLw53iEw1RCrLKVafY9+2BVJbceAFp0cCAuDeHdYCvAu5pliRPuwnCqTK//wzXSR2p+nVbnyoFMS/MIzbo0BxqxMU05MJ46nF9L8gtuaNR5CRd0j8roIFu58janIDnh4xaidO5nZWHYN44=
+  on:
+    tags: true
+    repo: tjwebb/sails-rigged
