@@ -1,14 +1,14 @@
 {
-  "name": "sails-lifted-event",
+  "name": "sails-rigged",
   "version": "0.0.0",
-  "description": "A reliable \"lifted\" event handler for loading a Sails.js app via require()",
+  "description": "A reliable callback handler for loading an external Sails.js app via require()",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tjwebb/sails-lifted-event.git"
+    "url": "https://github.com/tjwebb/sails-lift.git"
   },
   "keywords": [
     "sails.js",
@@ -24,7 +24,16 @@
   "author": "Travis Webb <me@traviswebb.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tjwebb/sails-lifted-event/issues"
+    "url": "https://github.com/tjwebb/sails-lift/issues"
   },
-  "homepage": "https://github.com/tjwebb/sails-lifted-event"
+  "homepage": "https://github.com/tjwebb/sails-lift",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "sails-todomvc": "tjwebb/sails-todomvc",
+    "xtuple-api": "0.0.3"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "sails": "^0.10.3"
+  }
 }

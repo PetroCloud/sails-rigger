@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - '0.10'
+  - '0.11'
+
+notifications:
+  email: false
+
+deploy:
+  provider: npm
+  email: me@traviswebb.com
+  api_key:
+    secure: ctlVXZHKgOuBxS0aBwcEh2Oqaxc7uG+cniQTyjiiafLBCLXVTlWwLl+evnRFhtiJR6UJ3LFC1Iz7Ovvc4iWVd8ynMTrKwDsAb9aklX/OwQP6aHL6slvbx8dzIeLaL+Lo2GsGQtiolnZ3SX+G5P/b9R6ttp09/4O0+4KO2TYIBWE=
