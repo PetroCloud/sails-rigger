@@ -9,8 +9,7 @@ exports.lift = function (app, config, cb) {
 
   var sails = new SailsApp();
   sails.load(_.merge({ hooks: { grunt: false } }, config || { }), function () {
+    process.chdir(cwd);
     cb(sails);
   });
-
-  process.chdir(cwd);
 };
