@@ -36,6 +36,6 @@
   },
   "dependencies": {
     "lodash": "^2.4.1",
-    "sails": "^0.10.3"
+    "sails": "^0.10.5"
   }
 }

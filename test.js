@@ -12,7 +12,7 @@ describe('sails-rigged', function () {
     _.each(apps, function (app) {
       it('should work with app '+ app, function (done) {
 
-        rigger.lift(app, function (sails) {
+        rigger.lift(app, { models: { migrate: 'safe' } }, function (sails) {
           assert(_.isObject(sails.models));
           done();
         });
