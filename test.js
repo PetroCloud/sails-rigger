@@ -1,7 +1,6 @@
 var assert = require('assert');
 var _ = require('lodash');
 var rigger = require('./');
-var sails = require('sails');
 
 describe('sails-rigged', function () {
 
