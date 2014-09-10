@@ -1,6 +1,6 @@
 {
   "name": "sails-rigged",
-  "version": "0.11.2",
+  "version": "0.11.3",
   "description": "A reliable callback handler for loading an external Sails.js app via require()",
   "main": "index.js",
   "scripts": {
