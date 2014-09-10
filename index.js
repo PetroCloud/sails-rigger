@@ -5,6 +5,7 @@ var _ = require('lodash');
 exports.lift = function (app, config, cb) {
   var cwd = process.cwd();
 
+  process.chdir(path.dirname(module.parent.filename));
   process.chdir(path.dirname(require.resolve(app)));
 
   var sails = new SailsApp();
