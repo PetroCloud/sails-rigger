@@ -1,5 +1,5 @@
 {
-  "name": "sails-rigger",
+  "name": "@petrocloud/sails-rigger",
   "version": "0.12.0",
   "description": "A reliable callback handler for loading an external Sails.js app via require()",
   "main": "index.js",
