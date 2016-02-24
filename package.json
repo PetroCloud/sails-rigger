@@ -1,6 +1,6 @@
 {
-  "name": "sails-rigged",
-  "version": "0.11.5",
+  "name": "sails-rigger",
+  "version": "0.12.0",
   "description": "A reliable callback handler for loading an external Sails.js app via require()",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tjwebb/sails-rigged.git"
+    "url": "https://github.com/petrocloud/sails-rigger.git"
   },
   "keywords": [
     "sails.js",
@@ -16,7 +16,7 @@
     "sails",
     "mocha",
     "testing",
-    "rigged",
+    "rigger",
     "lift",
     "lifted",
     "event",
@@ -24,18 +24,26 @@
     "handler"
   ],
   "author": "Travis Webb <me@traviswebb.com>",
+  "contributors": [
+    {
+      "name": "Luis Lobo Borobia",
+      "email": "luis.lobo@petrocloud.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tjwebb/sails-rigged/issues"
+    "url": "https://github.com/petrocloud/sails-rigger/issues"
   },
-  "homepage": "https://github.com/tjwebb/sails-rigged",
+  "homepage": "https://github.com/petrocloud/sails-rigger",
   "devDependencies": {
+    "@petrocloud/sails-sample": "*",
+    "ejs": "^2.4.1",
     "mocha": "^1.21.4",
-    "sails-todomvc": "tjwebb/sails-todomvc",
-    "xtuple-api": "0.0.3"
+    "sails-disk": "^0.10.9"
   },
   "dependencies": {
-    "lodash": "^2.4.1",
-    "sails": "^0.10.5"
+    "lodash": "~3.10.x",
+    "sails": "~0.12.x",
+    "sails-disk": "^0.10.9"
   }
 }
